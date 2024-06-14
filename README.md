@@ -3,12 +3,11 @@
 1.	Create a Resource Group
 
 2.	Create a Virtual Network and Subnet inside the RG
-Note: Enable Public IP bastion under security tab.
+  Note: Enable Public IP bastion under security tab.
 
 3.	Create a Virtual machine with below mentioned configurations
-Note: Authentication -> SSH, Public inbound ports: None
-
-Once VM created got to NSG and add new rule in inbound for SSH.
+  Note: Authentication -> SSH, Public inbound ports: None
+  Once VM created got to NSG and add new rule in inbound for SSH.
 
 4.	Create Azure Kubernetes service with below mentioned configurations
 
