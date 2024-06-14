@@ -10,7 +10,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: admch.azuretestplatform.com
+  - host: chart.example.com
     http:
       paths:
       - path: /num/(.*)$
@@ -22,7 +22,7 @@ spec:
               number: 80
   tls:
   - hosts: 
-    - admch.azuretestplatform.com
+    - chart.example.com
     secretName: secret-tls
 
 

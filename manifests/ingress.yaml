@@ -9,7 +9,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: admch.azuretestplatform.com
+  - host: chart.example.com
     http:
       paths:
       - path: /num/(.*)$
